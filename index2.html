@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Homework 3 for UCLA Coding Boot Camp">
+        <meta name="author" content="Eric Zimmermann">
+        
+        <title>Psychic Game</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Roboto">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>The Psychic Game</h1>
+            
+            <div id="userStats">
+                <p>Wins: <strong><span id="numWins"></span></strong></p>
+                <p>Losses: <strong><span id="numLosses"></span></strong></p>
+            </div>
+            
+            <p>Guess the letter I'm thinking of!</p>
+            <p>(Hint: It's the letter <strong><span id="answer"></span></strong>.)</p>
+            <br>
+            
+            <p>Number of tries left: <strong><span id="numTriesLeft"></span></strong></p>
+            <p>Guesses Remaining:</p>
+            <p><strong><span id="guesses"></span></strong></p>
+        </div>
+        
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
