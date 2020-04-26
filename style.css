@@ -1,0 +1,57 @@
+:root {
+    /* Define color scheme */
+    --color-mint-green    :purple;
+    --color-text          :black;
+    --color-text-highlight:orange;
+}
+
+body {
+    color      : var(--color-text);
+    font-family: "Architects Daughter", cursive;
+    font-size  : 30px;
+}
+
+/* Total width of 640px */
+.container {
+    width  : 520px;
+    margin : auto;
+    padding: 60px 0;
+}
+
+h1 {
+    color         : var(--color-mint-green);
+    font-family   : "The Girl Next Door", cursive;
+    font-size     : 1.8em;
+    font-weight   : bold;
+    letter-spacing: 0.02em;
+
+    margin-bottom : 5%;
+}
+
+@-moz-document url-prefix() {
+h1 {
+    letter-spacing: 0;
+}
+}
+
+p {
+    letter-spacing: 0.015em;
+    line-height   : 1.3em;
+
+    margin-bottom : 2%;
+}
+
+p strong {
+    color      : var(--color-text-highlight);
+    font-weight: bold;
+}
+
+#userStats p {
+    float        : left;
+    width        : 50%;
+    margin-bottom: 7.5%;
+}
+
+#guesses {
+    letter-spacing: 0.75em;
+}
